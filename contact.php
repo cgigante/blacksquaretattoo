@@ -6,15 +6,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
  <?php
   include ("_head.php")
   ?>
 
-
   <body>
-    <?php include( "_navigation.php" ) ?>
 
+    <?php include( "_navigation.php" ) ?>
 
     <div class="container" id="contactPage">
 

@@ -35,25 +35,11 @@ a {
   height: auto !important;
 }
 
-/*
-div.fullWidthImgDiv {
-	overflow: hidden;
-}
-
-div.fullWidthImgDiv > img {
-	max-width: 100%;
-	display: inline-block;
-	margin: 0 auto;
-}
-*/
-
 
 
 /*******************************************
 NAVIGATION
 *******************************************/
-
-
 
 .navbar-brand {
 	color: black !important;
@@ -61,6 +47,7 @@ NAVIGATION
 	.navbar-brand:hover {
 		color: lightgrey !important;
 	}
+
 
 
 .navA {
@@ -105,7 +92,7 @@ NAVIGATION
 .navbar > .container-fluid,
 .navbar > .container-fluid > .navbar-collapse,
 .navbar > .container-fluid > .navbar-collapse > .navbar-nav {
-	background-color: white !important;
+	background-color: white !important;	
 }
 
 
@@ -114,8 +101,10 @@ NAVIGATION
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-  color: white !important; /*This sets the color of the active nav link text.*/
-  background: black !important; /*This sets the color of the background of an active navigation link.*/
+  /*color: white !important;*/ /*This sets the color of the active nav link text.*/
+  background: transparent !important; /*This sets the color of the background of an active navigation link.*/
+  /*text-decoration: underline !important;*/
+  border-bottom: 5px solid black !important;
  }
 
 
@@ -137,7 +126,7 @@ Common IMAGES
 HOME
 *************************************************/
 #homePage {
-	margin-top: 25px;
+	margin-top: 75px;
 }
 
 
@@ -161,7 +150,7 @@ Artists
 }
 
 .artistPage {
-	margin-top: 25px;
+	margin-top: 75px;
 }
 
 .artistPhotos {
@@ -186,7 +175,7 @@ img.thumbnailPhoto {
 CONTACT
 *******************************************/
 #contactPage {
-	margin-top: 25px;
+	margin-top: 75px;
 }
 
 #contactLeft {
@@ -201,18 +190,6 @@ CONTACT
 	padding: 0;
 	text-align: center;
 }
-
-#mapDiv {
-	margin-top: 45px;
-}
-
-/* This is required to Prevent a Google Maps iframe 
-from capturing the mouse's scrolling wheel behavior */
-.scrolloff {
-  pointer-events: none;
-}
-
-
 
 /*contact button*/
 .form-group > .btn {
@@ -232,6 +209,16 @@ input, textarea {
 	border-radius: 0 !important;
 }
 
+
+#mapDiv {
+	margin-top: 45px;
+}
+
+/* This is required to Prevent a Google Maps iframe 
+from capturing the mouse's scrolling wheel behavior */
+.scrolloff {
+  pointer-events: none;
+}
 
 /*******************************************
 FOOTER

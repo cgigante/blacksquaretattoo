@@ -7,18 +7,17 @@
   <?php include("_head.php") ?>
 
   <body>
-	<?php include( "_navigation.php" ) ?>
-	  	
+    <?php include( "_navigation.php" ) ?>
 
-    <div class="container artistPage animated fadeIn">
+    <div class="container artistPage">
       <img src="img/bsqt_logo.png" class="img-responsive" id="artistImageLogo5">
       
       <div class="artist row col-md-12">
         
         <h1>
-          <span class="artistNameToggle animated infinite pulse"><a href="noel.php"><i class="glyphicon glyphicon-menu-left"></i></a></span>
+          <span class="artistNameToggle"><a href="noel.php"><i class="glyphicon glyphicon-menu-left"></i></a></span>
           <?php echo $page; ?>
-          <span class="artistNameToggle animated infinite pulse"><a href="meia.php"><i class="glyphicon glyphicon-menu-right"></i></a></span>
+          <span class="artistNameToggle"><a href="meia.php"><i class="glyphicon glyphicon-menu-right"></i></a></span>
         </h1>
         
         <div class="questionsAppointmentsDiv">
@@ -68,7 +67,7 @@
         </div>
 
         
-        <div class="artistPhotos animated fadeIn">
+        <div class="artistPhotos">
           <!-- Photos - Row 1 -->
           <a href="img/artists/rukus/1.jpg" title="<?php echo $page; ?>" data-gallery>
               <img class="thumbnailPhoto" src="img/artists/rukus/thumbnails/1.jpg" alt="<?php echo $page; ?>">

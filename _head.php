@@ -16,9 +16,6 @@
 	<!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-    <!-- ANIMATIONS -->
-    <link rel="stylesheet" href="css/animate-min.css">
-
     <!-- Image Gallery CSS files -->
     <link rel="stylesheet" href="css/blueimp-gallery.css">
 
@@ -45,7 +42,5 @@
         try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
         catch(e){window.attachEvent("onload", $buo_f)}
     </script>
-
-
 
   </head>
