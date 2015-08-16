@@ -96,7 +96,6 @@ NAVIGATION
 }
 
 
-
 /* "Active" navigation stylings */
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover, 
@@ -105,7 +104,7 @@ NAVIGATION
   background: transparent !important; /*This sets the color of the background of an active navigation link.*/
   /*text-decoration: underline !important;*/
   border-bottom: 5px solid black !important;
- }
+}
 
 
 /*******************************
@@ -263,6 +262,9 @@ Media queries
 ******************************************/
 
 @media all and (max-width:550px) {
+
+
+
 	#contactForm {
 		margin-left: 1.1em;
 		margin-right: 1.1em;
@@ -274,7 +276,6 @@ Media queries
 	}
 
 
-
 	.artistNameToggle {
 		font-size: .6em;
 		padding: 0 8px;
@@ -284,11 +285,14 @@ Media queries
 		margin-left: 2.5%;
 	}
 
+
+
 }
 
 
 
 @media all and (min-width:551px) {
+
 
 	#contactForm {
 		margin-left: 1.3em;
@@ -302,7 +306,10 @@ Media queries
 
 }
 
-@media all and (min-width:980px) {
+@media all and (min-width:768px) {
+
+
+
 
 	#contactForm {
 		margin-left: 1.5em;
