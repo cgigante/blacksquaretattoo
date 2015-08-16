@@ -1,0 +1,329 @@
+* {
+	margin: 0;
+}
+
+/*Clearfix*/
+.clear {
+	clear: both;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+	/*margin-top: 50px;*/
+	font-family: open sans, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, label, .navbar-brand, .btn, .navA {
+	font-family: 'Pirata One', cursive;
+	letter-spacing: 2px;
+}
+
+a {
+	color: #3498db;
+}
+
+	a:hover {
+		color: #34495e;
+	}
+
+
+.container {
+  max-width: 980px;
+  height: auto !important;
+}
+
+/*
+div.fullWidthImgDiv {
+	overflow: hidden;
+}
+
+div.fullWidthImgDiv > img {
+	max-width: 100%;
+	display: inline-block;
+	margin: 0 auto;
+}
+*/
+
+
+
+/*******************************************
+NAVIGATION
+*******************************************/
+
+
+
+.navbar-brand {
+	color: black !important;
+}
+	.navbar-brand:hover {
+		color: lightgrey !important;
+	}
+
+
+.navA {
+	/*These change the styles of the navigation links*/
+	color: black !important;
+	font-family: 'Pirata One', cursive;
+	font-size: 1.25em;
+}
+
+	.navA:hover {
+		/*This changes the style of the nav links text when hovering*/
+		color: lightgrey !important;
+	}
+
+
+/*Changes colors of the collapsed navigation icon*/
+.collapsed {
+	/*border-color: #7b654d !important;*/
+}
+
+.icon-bar {
+	/*background-color:  #7b654d !important;*/
+}
+
+/*This adjusts the colors of links:*/
+/*a {
+	color: #2c3e50 !important;
+}
+	a:hover {
+		color: #7b654d !important;
+	}*/
+
+
+/*This updates the standard navbar styling*/
+.navbar {
+	width: 100%;
+	border: none;
+	opacity: 0.95;
+}
+
+/* This sets the color of the navigation bar */
+.navbar > .container-fluid,
+.navbar > .container-fluid > .navbar-collapse,
+.navbar > .container-fluid > .navbar-collapse > .navbar-nav {
+	background-color: white !important;
+}
+
+
+
+/* "Active" navigation stylings */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+  color: white !important; /*This sets the color of the active nav link text.*/
+  background: black !important; /*This sets the color of the background of an active navigation link.*/
+ }
+
+
+/*******************************
+Common IMAGES
+********************************/
+#homeImageLogo,
+#homeImageSkull {
+	margin: 0 auto;
+}
+
+#artistImageLogo1, #artistImageLogo2, #artistImageLogo3, #artistImageLogo4, #artistImageLogo5 {
+	margin: 0 auto;
+}
+
+
+
+/************************************************
+HOME
+*************************************************/
+#homePage {
+	margin-top: 25px;
+}
+
+
+/*************************************************
+Artists
+*************************************************/
+
+
+.artist > h1, p {
+	text-align: center;
+}
+
+.artistNameToggle {
+	font-size: .6em;
+	padding: 0 50px;
+}
+
+.questionsAppointmentsDiv {
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+.artistPage {
+	margin-top: 25px;
+}
+
+.artistPhotos {
+	width: 100%;
+	margin-left: 5.7%;
+}
+
+img.thumbnailPhoto {
+	margin-right: 1.25em;
+	margin-bottom: 1.25em;
+	max-width: 20%;
+}
+
+	img.thumbnailPhoto:hover {
+		opacity: 0.4;
+	}
+
+
+
+
+/*******************************************
+CONTACT
+*******************************************/
+#contactPage {
+	margin-top: 25px;
+}
+
+#contactLeft {
+	margin-top: 25px;
+}
+
+#contactImageLogo {
+	margin: 0 auto;
+}
+
+.pageHeaderText {
+	padding: 0;
+	text-align: center;
+}
+
+#mapDiv {
+	margin-top: 45px;
+}
+
+/* This is required to Prevent a Google Maps iframe 
+from capturing the mouse's scrolling wheel behavior */
+.scrolloff {
+  pointer-events: none;
+}
+
+
+
+/*contact button*/
+.form-group > .btn {
+	border-radius: 0;
+	margin-left: -15px;
+	margin-top: -10px;
+	font-size: 1.25em;
+	font-weight: bolder;
+	min-width: 20%;
+}
+
+label {
+	font-size: 1.4em;
+}
+
+input, textarea {
+	border-radius: 0 !important;
+}
+
+
+/*******************************************
+FOOTER
+*******************************************/
+
+footer {
+	margin-top: 25px;
+	margin-bottom: 0;
+	min-width: 100% !important; 
+	text-align: center;
+	padding-bottom: 0;
+
+}
+
+.footerText {
+	/*margin-top: 5px;*/
+	margin-bottom: 25px;
+
+}
+
+.socialIconsDiv {
+	padding-right: 10px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+/*This updates social icons with the class "socialIcon"*/
+.socialIcon {
+	color: black !important;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0 5px;
+}
+	.socialIcon:hover {
+		color: lightgrey !important;
+	}
+
+
+
+/******************************************
+Media queries
+******************************************/
+
+@media all and (max-width:550px) {
+	#contactForm {
+		margin-left: 1.1em;
+		margin-right: 1.1em;
+	}
+
+	img.thumbnailPhoto {
+		max-width: 40%;
+		padding-left: 5%;
+	}
+
+
+
+	.artistNameToggle {
+		font-size: .6em;
+		padding: 0 8px;
+	}
+
+	.artistPhotos {
+		margin-left: 2.5%;
+	}
+
+}
+
+
+
+@media all and (min-width:551px) {
+
+	#contactForm {
+		margin-left: 1.3em;
+		margin-right: 1.3em;
+	}
+	
+	.artist {
+		padding-left: 30px;
+	}
+
+
+}
+
+@media all and (min-width:980px) {
+
+	#contactForm {
+		margin-left: 1.5em;
+		margin-right: 1.5em;
+	}
+
+}
+
+
+
+
