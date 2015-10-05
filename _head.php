@@ -9,8 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Black Square Tattoo | <?php echo $page ?></title>
-    <!-- <meta name="description" content="Traditional tattoo shop in Williamsburg Brooklyn, NY." />
-    <meta name="keywords" content="tattoo, tattoos, custom tattoo, brooklyn, williamsburg, nyc, brooklyn tattoo, traditional tattoo, tattoo design, tattooist, tattooists, body art, art, gallery"> -->
+    <meta name="description" content="Traditional tattoo shop in Williamsburg Brooklyn, NY." />
+    <meta name="keywords" content="tattoo, tattoos, custom tattoo, brooklyn, williamsburg, nyc, brooklyn tattoo, traditional tattoo, tattoo design, tattooist, tattooists, body art, art, gallery">
     <link rel="shortcut icon" href="img/icon.jpg" />
 
 	<!-- Latest compiled and minified CSS -->

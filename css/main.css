@@ -48,8 +48,6 @@ NAVIGATION
 		color: lightgrey !important;
 	}
 
-
-
 .navA {
 	/*These change the styles of the navigation links*/
 	color: black !important;
@@ -61,24 +59,6 @@ NAVIGATION
 		/*This changes the style of the nav links text when hovering*/
 		color: lightgrey !important;
 	}
-
-
-/*Changes colors of the collapsed navigation icon*/
-.collapsed {
-	/*border-color: #7b654d !important;*/
-}
-
-.icon-bar {
-	/*background-color:  #7b654d !important;*/
-}
-
-/*This adjusts the colors of links:*/
-/*a {
-	color: #2c3e50 !important;
-}
-	a:hover {
-		color: #7b654d !important;
-	}*/
 
 
 /*This updates the standard navbar styling*/
@@ -108,7 +88,7 @@ NAVIGATION
 
 
 /*******************************
-Common IMAGES
+Common elements
 ********************************/
 #homeImageLogo,
 #homeImageSkull {
@@ -119,23 +99,18 @@ Common IMAGES
 	margin: 0 auto;
 }
 
-
-
-/************************************************
-HOME
-*************************************************/
-#homePage {
+/*This pushes down the content of each of the pages beneath the fixed header*/
+#homePage, .artistPage, #contactPage {
 	margin-top: 75px;
 }
 
 
 /*************************************************
-Artists
+Artist Pages
 *************************************************/
 
-
 .artist > h1, p {
-	text-align: center;
+	text-align: center; /* this centers all of the artist text on each of the artist pages */
 }
 
 .artistNameToggle {
@@ -148,9 +123,7 @@ Artists
 	margin-bottom: 25px;
 }
 
-.artistPage {
-	margin-top: 75px;
-}
+
 
 .artistPhotos {
 	width: 100%;
@@ -163,9 +136,6 @@ img.thumbnailPhoto {
 	max-width: 20%;
 }
 
-	img.thumbnailPhoto:hover {
-		opacity: 0.4;
-	}
 
 
 
@@ -173,9 +143,7 @@ img.thumbnailPhoto {
 /*******************************************
 CONTACT
 *******************************************/
-#contactPage {
-	margin-top: 75px;
-}
+
 
 #contactLeft {
 	margin-top: 25px;
@@ -308,8 +276,9 @@ Media queries
 
 @media all and (min-width:768px) {
 
-
-
+	img.thumbnailPhoto:hover {
+		opacity: 0.4;
+	}
 
 	#contactForm {
 		margin-left: 1.5em;
